@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="249.0" layoutY="138.0" prefHeight="533.0" prefWidth="580.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="201.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #2A9A0E;" text="Criar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="180.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Novo Cliente">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliente">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Endereço">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="69.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="269.0" layoutY="158.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="268.0" layoutY="240.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="268.0" layoutY="323.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="353.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #DD2D24;" text="Cancelar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="259.0" layoutY="148.0" prefHeight="533.0" prefWidth="580.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="201.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #2A9A0E;" text="Alterar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="180.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar Cliente">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliente">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="67.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Endereço">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="69.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="269.0" layoutY="158.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="268.0" layoutY="240.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="268.0" layoutY="323.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="353.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #DD2D24;" text="Cancelar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="239.0" layoutY="128.0" prefHeight="533.0" prefWidth="580.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="201.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #2A9A0E;" text="Criar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="180.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Novo Pedido">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliente">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cód.Pedido">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total dos itens">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frete">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="70.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="269.0" layoutY="149.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="200.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="252.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="307.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="362.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="353.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #DD2D24;" text="Cancelar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="249.0" layoutY="138.0" prefHeight="533.0" prefWidth="580.0" style="-fx-background-color: #ffffff;" visible="false">
+         <children>
+            <Button layoutX="201.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #2A9A0E;" text="Alterar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="167.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar pedido">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cliente">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cód.Pedido">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total dos itens">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frete">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="70.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="269.0" layoutY="149.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="200.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="252.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="307.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="362.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="353.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #DD2D24;" text="Cancelar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="249.0" layoutY="138.0" prefHeight="533.0" prefWidth="580.0" style="-fx-background-color: #ffffff;" visible="false">
+         <children>
+            <Button layoutX="201.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #2A9A0E;" text="Criar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="180.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Novo Produto">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categoria">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cód.Produto">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peso">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marca">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="70.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantidade">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="269.0" layoutY="149.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="200.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="252.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="307.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="362.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="353.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #DD2D24;" text="Cancelar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="259.0" layoutY="148.0" prefHeight="533.0" prefWidth="580.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="201.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #2A9A0E;" text="Alterar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="180.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar Produto">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categoria">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cód.Produto">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peso">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="68.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marca">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="70.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantidade">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <TextField layoutX="269.0" layoutY="149.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="200.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="252.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="307.0" prefHeight="25.0" prefWidth="244.0" />
+            <TextField layoutX="269.0" layoutY="362.0" prefHeight="25.0" prefWidth="244.0" />
+            <Button layoutX="353.0" layoutY="448.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #DD2D24;" text="Cancelar" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>
